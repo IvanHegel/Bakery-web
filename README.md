@@ -1,12 +1,20 @@
 ﻿# Bakery-web
 Dobrodošli na službenu web stranicu Pekare Sesvetski Kraljevec!
+
 Funkcionalnosti
+
 Responsive dizajn: Stranica je prilagođena za različite uređaje (mobilne, tablete, desktop).
+
 Animacije: Dodane su animacije za bolje korisničko iskustvo.
+
 Galerija: Karusel sa slikama naših proizvoda.
+
 Kontakt informacije: Prikaz radnog vremena, adrese i telefona.
+
 Google Maps: Integrirana mapa za jednostavno lociranje pekare.
+
 Tehnologije
+
 Projekt je izrađen koristeći sljedeće tehnologije:
 
 HTML: Struktura stranice.
