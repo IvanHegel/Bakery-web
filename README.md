@@ -26,7 +26,9 @@ JavaScript: Dodane interaktivne funkcionalnosti (npr. animacije pri skrolanju).
 Bootstrap: Korišten za brzu izradu responzivnog dizajna i komponenti poput navigacijske trake i karusela.
 
 Font Awesome: Korišten za ikone.
-eng
+
+ENG
+
 Welcome to the official website of Pekara Sesvetski Kraljevec!
 
 Features
