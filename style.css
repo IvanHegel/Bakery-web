@@ -1,0 +1,214 @@
+/*header nav-bar*/
+
+header nav{
+    background-color: rgb(214, 154, 42);
+   
+}
+header nav a.navbar-brand{
+  color: white;
+}header nav a.navbar-brand:hover{
+  color: rgb(0, 0, 0);
+}
+header nav .nav-link{
+  color: white;
+}
+header nav .nav-link:hover{
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+nav.navbar  .navbar-toggler{
+  border: 3px solid rgb(255, 255, 255);
+}
+nav.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Promijeni boju ikone togglera u bijelu */
+}
+
+/*pocetna*/
+.animate-on-scroll {
+  opacity: 0; /* Elementi su inicijalno nevidljivi */
+  transform: translateY(50px); /* Pomeranje elemenata na dole */
+  transition: opacity 1s ease-out, transform 1s ease-out; /* Glatka tranzicija */
+}
+
+/* Klasa koja pokreće animaciju */
+.animate-on-scroll.animate {
+  opacity: 1; /* Postavite elemente da budu vidljivi */
+  transform: translateY(0); /* Vratite elemente na njihovu originalnu poziciju */
+}
+#početna h1{
+  font-weight: bold;
+}
+#početna {
+    font-style: italic;
+    text-align: center;
+
+   
+    background:linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(134, 134, 134, 0.5)), url(images_bakery/pekara_izlog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+ padding-top: 7%;
+
+}
+#početna .prvi_tekst{
+    border-radius: 20px;
+    width: 500px;
+    padding: 0% 2%;
+    background-color: rgb(214, 154, 42);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 10px black;
+
+} 
+#početna .prvi_tekst:hover {
+    background-color: rgba(233, 222, 222, 0.586);
+    color: black;
+}
+#početna .container{
+    margin-top: 100px;
+}
+
+#početna p{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/* o nama*/
+#onama{
+  background-image: url(images_bakery/picture-breads-various-spices-white-table_1304147-112743.avif);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+   padding: 5% 0%;
+    text-align: center;
+}#onama h1{
+  font-weight: bold;
+}
+#onama img{
+    border: 5px inset;
+    max-width: 100%;  
+    height: auto;
+}
+
+
+/* proizvodi*/
+#proizvodi{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(214, 154, 42);
+    
+}
+#proizvodi h1 {
+  font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#proizvodi p{
+    color: rgb(255, 255, 255);
+}
+
+    #proizvodi .card{
+        border: 3px solid rgb(255, 255, 255);
+        background-color: rgb(214, 154, 42);
+        color: white;
+    }
+    #proizvodi .card:hover {
+        transform: scale(1.05); 
+        color: black;
+        background-color: white;
+      }
+/* galerija*/
+
+#galerija {
+  background-image: url(images_bakery/picture-breads-various-spices-white-table_1304147-112743.avif);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+   padding: 5% 0%;
+}
+#galerija h1 {
+  
+  font-weight: bold;
+}
+.carousel-inner {
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+    box-shadow: 10px 10px 10px 10px;
+}
+.carousel .carousel-control-prev-icon {
+   
+      background-image: url('Arrow_carousel/reshot-icon-left-arrow-button-RF5DMQX396-95d98.svg');
+      
+    }
+    .carousel .carousel-control-next-icon {
+        
+          background-image: url('Arrow_carousel/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg');
+        }
+        .carousel .carousel-control-prev-icon,
+        .carousel  .carousel-control-next-icon {
+    width: 50px;  
+    height: 50px;
+}
+/*dostava*/
+#dostava {
+    background-color: rgb(214, 154, 42);
+    color: rgb(255, 255, 255);
+}
+#dostava h1{
+  font-weight: bold;
+}
+/*kontakt*/
+#kontakt {
+  background-image: url(images_bakery/picture-breads-various-spices-white-table_1304147-112743.avif);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+   padding: 5% 0%;
+}
+
+#kontakt h1 {
+  font-weight: bold;
+}
+#googlemap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:300px;
+
+}
+@media only screen and (max-width: 1024px) {
+    iframe {
+      width: 450px;
+    }
+  }
+
+  @media only screen and (max-width: 855px) {
+    iframe {
+      width: 300px;
+    }
+  }
+  .card.kontakt-card{
+    background-color: rgb(214, 154, 42);
+    color: white;
+  }
+  .card.kontakt-card:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .kontakt-card:hover .dotted-separator{
+    background-color: black;
+  }
+  .dotted-separator {
+    flex-grow: 1;
+    border-bottom: 1px dotted #ffffff; /* Boja točkica */
+    margin: 0 0.5rem; /* Razmak između točkica i teksta */
+  }
+ 
+ 
+/*footer*/
+footer{
+    background-color: rgb(214, 154, 42);
+    color: rgb(255, 255, 255);
+}
