@@ -36,38 +36,27 @@ nav.navbar .navbar-toggler-icon {
   transform: translateY(0); /* Vratite elemente na njihovu originalnu poziciju */
 }
 #početna h1{
+font-size: 4.5rem;
   font-weight: bold;
+  font-family: 'Playfair Display', serif;  
+
 }
 #početna {
     font-style: italic;
     text-align: center;
-
-   
-    background:linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(134, 134, 134, 0.5)), url(images_bakery/pekara_izlog.jpg);
+    background-image: url(images_bakery/IMG_9966\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 5%;
- padding-top: 7%;
+    background-position: center;
+    padding: 20rem 0rem;
+    color: #ffffff;
 
 }
-#početna .prvi_tekst{
-    border-radius: 20px;
-    width: 500px;
-    padding: 0% 2%;
-    background-color: rgb(214, 154, 42);
-    color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 10px 10px black;
 
-} 
-#početna .prvi_tekst:hover {
-    background-color: rgba(233, 222, 222, 0.586);
-    color: black;
-}
-#početna .container{
-    margin-top: 100px;
-}
 
 #početna p{
+  font-family: 'Open Sans', sans-serif;   
+  font-size: 2rem;
     margin: 0 auto;
     width: 80%;
 }
@@ -79,9 +68,11 @@ nav.navbar .navbar-toggler-icon {
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
   background-size: cover;
-   padding: 5% 0%;
+  padding: 50px 0;
     text-align: center;
 }#onama h1{
+  padding: 5rem 0rem;
+  font-size: 45px;
   font-weight: bold;
 }
 #onama img{
@@ -93,12 +84,13 @@ nav.navbar .navbar-toggler-icon {
 
 /* proizvodi*/
 #proizvodi{
-    padding-top: 5%;
-    padding-bottom: 5%;
+  padding: 50px 0;
     background-color: rgb(214, 154, 42);
     
 }
 #proizvodi h1 {
+  padding: 5rem 0rem;
+  font-size: 45px;
   font-weight: bold;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -124,10 +116,11 @@ nav.navbar .navbar-toggler-icon {
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
   background-size: cover;
-   padding: 5% 0%;
+  padding: 50px 0;
 }
 #galerija h1 {
-  
+  padding: 5rem 0rem;
+  font-size: 45px;
   font-weight: bold;
 }
 .carousel-inner {
@@ -152,14 +145,21 @@ nav.navbar .navbar-toggler-icon {
 }
 /*dostava*/
 #dostava {
+  padding: 55px 0;
     background-color: rgb(214, 154, 42);
     color: rgb(255, 255, 255);
 }
 #dostava h1{
+  padding: 5rem 0rem;
+  font-size: 45px;
   font-weight: bold;
+}
+#dostava i {
+  padding-bottom: 5rem;
 }
 /*kontakt*/
 #kontakt {
+  padding: 50px 0;
   background-image: url(images_bakery/picture-breads-various-spices-white-table_1304147-112743.avif);
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
@@ -168,6 +168,8 @@ nav.navbar .navbar-toggler-icon {
 }
 
 #kontakt h1 {
+  padding: 5rem 0rem;
+  font-size: 45px;
   font-weight: bold;
 }
 #googlemap{
